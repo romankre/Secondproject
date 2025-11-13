@@ -1,0 +1,233 @@
+*
+{ 
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    color: white;
+}
+.site-logo
+{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    top: 10px;
+    left: 40px;
+    position: fixed;
+    color: white;
+}
+.site-logo h2
+{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+body
+{
+    background: url(grass.jpg) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #d6d6d6;
+    background-size: cover;
+    padding: 60px 0;
+    font-family: "Inter", sans-serif;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+.formhelp
+{
+    display: grid;
+    justify-content: center;
+}
+.Container
+{
+    width: 25%;
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+.input-box
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.box
+{
+    margin: 1% 0 1% 1%;
+    padding: 2%;
+    width: 100%;
+    height: 3vh;
+    background-color: transparent;
+    outline: transparent;
+}
+.box::placeholder 
+{
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+    text-decoration: Arial;
+}
+.checkbox
+{
+    margin: 2% 2% 2% 0;
+    color: #000000;
+}
+.checkbox label
+{
+    color: #000000;
+}
+.SignUp 
+{
+    width: 100%;
+    padding: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #000000;
+}
+.field-label {
+    color: #000000;
+    width: 100%;
+    padding: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    display: block;
+    text-align: left;
+
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.3px;
+
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+   background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.input-box:focus-within {
+    border-color: black;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
+}
+
+.signin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 300px;
+  height: 50px;
+  background: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.signin-btn:active {
+  background: #222;
+}
+
+.signin-btn:hover {
+  background: white;
+  color: black;               
+  border: 2px solid black;   
+  transform: scale(0.97);     
+}
+.divider {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: center;
+}
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: invisible;
+}
+.divider span {
+    padding: 0 9px;
+    background-color: transparent;
+    color: transparent;
+    font-size: 14px;
+    z-index: 1;
+}
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.social-btn-google,
+.social-btn-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1.5px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  width: 170px;         
+  height: 45px;          
+}
+
+.social-btn-google img,
+.social-btn-facebook img {
+  width: 20px;           
+  height: 30px;
+  object-fit: contain;
+}
+
+.social-btn-google:hover,
+.social-btn-facebook:hover {
+  background-color: #f5f5f5;
+  border-color: #bbb;
+  transform: scale(0.98);
+}
+
+.social-btn-google:hover {
+  border-color: #DB4437;
+}
+
+.social-btn-facebook:hover {
+  border-color: #1877F2;
+}

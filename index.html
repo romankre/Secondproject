@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media</title>
+    <link rel="Stylesheet" href="2Project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <div class="site-logo">
+        <h2><strong>LINKFY</strong></h2>
+    </div>
+    <div class="Container">
+        <header><h1 class="header">WELCOME!</h1></header>
+        <main class="inputboxes">
+            <br>
+            <form novalidate aria-activedescendant="form-help">
+                <p id="form-help" class="formhelp"><b>All fields marked required must be filled</b></p>
+                <!--fieldset><legend><b>Create your account</b></legend-->
+
+                <label for="name" class="field-label"><strong>name</strong></label>
+                <div class="input-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="25px" fill="#fff"><path d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z"/></svg>
+                    <input type="text" class="box" id="name" name="name" placeholder="Enter name" autocomplete="name" required>
+                </div>
+                
+                <label for="username" class="field-label"><strong>Username</strong></label>
+                <div class="input-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="25px" fill="#fff"><path d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z"/></svg>
+                    <input type="text" class="box" id="username" name="username" placeholder="Enter your username..." autocomplete="username" required>
+                </div>
+
+                <label for="email" class="field-label"><strong>Email address</strong></label>
+                <div class="input-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="25px" fill="#fff"><path d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67ZM480-454.67 146.67-670v443.33h666.66V-670L480-454.67Zm0-66.66 330.67-212H150l330 212ZM146.67-670v-63.33V-226.67-670Z"/></svg> 
+                    <input type="email" class="box" id="email" name="email" placeholder="dig@domain.com" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" autocomplete="email" required>
+                </div>
+ 
+                <label for="password" class="field-label"><strong>Password</strong></label>
+                <div class="input-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="19px" fill="#fff"><path d="M160-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM80-200v-80h800v80H80Zm400-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm320 0q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Z"/></svg>
+                    <input type="password" class="box" id="password" name="password" placeholder="Mindst 8 tegn" autocomplete="Password" minlength="8" required>
+                </div>
+
+                <label for="phone" class="field-label"><strong>Phone number</strong></label>
+                <div class="input-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="25px" fill="#fff"><path d="M796-120q-119 0-240-55.5T333-333Q231-435 175.5-556T120-796q0-18.86 12.57-31.43T164-840h147.33q14 0 24.34 9.83Q346-820.33 349.33-806l26.62 130.43q2.05 14.9-.62 26.24-2.66 11.33-10.82 19.48L265.67-530q24 41.67 52.5 78.5T381-381.33q35 35.66 73.67 65.5Q493.33-286 536-262.67l94.67-96.66q9.66-10.34 23.26-14.5 13.61-4.17 26.74-2.17L806-349.33q14.67 4 24.33 15.53Q840-322.27 840-308v144q0 18.86-12.57 31.43T796-120ZM233-592l76-76.67-21-104.66H187q3 41.66 13.67 86Q211.33-643 233-592Zm365.33 361.33q40.34 18.34 85.84 29.67 45.5 11.33 89.16 13.67V-288l-100-20.33-75 77.66ZM233-592Zm365.33 361.33Z"/></svg>
+                    <input type="tel" class="box" id="phone" name="tel" placeholder=" + 45 ..." autocomplete="tel">
+                </div>
+
+                <label for="birthday" class="field-label"><strong>Birthday</strong></label>
+                <div class="input-box">
+                <input type="date" class="box" id="birthday" name="birthday" fill="#fff" required>
+                </div>
+
+                   <div class="checkbox">
+                    <input type="checkbox" id="remember"> <label for="remember"><strong>Jeg accepterer vilkårene</strong></label>
+                </div>
+
+                   <button id="signup-btn" class="signin-btn" type="button">
+                        Sign up<span class="signup-btn"> → </span>
+                    </button>
+
+                <div class="divider"><span><strong>Ellers</strong></span></div>
+                    
+                <div class="social-buttons"> 
+                    <button class="social-btn-google" type="button">
+                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-black-icon.png" alt="Google logo">
+                    </button>
+
+                    <button class="social-btn-facebook" type="button">
+                        <img src="https://toppng.com/uploads/preview/facebook-fb-logo-icon-round-outline-11689105241ortgye43t6.webp" alt="Facebook logo">
+                    </button>
+
+                </div>
+            </form>
+        </main>
+    </div> 
+</body>
+</html>
